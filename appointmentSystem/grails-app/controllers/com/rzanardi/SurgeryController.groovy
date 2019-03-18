@@ -2,5 +2,5 @@ package com.rzanardi
 
 class SurgeryController {
 
-    def index() { }
+    def scaffold = Surgery
 }
