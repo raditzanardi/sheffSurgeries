@@ -6,6 +6,7 @@ class Appointment {
 	String appTime
 	int appDuration
 	String roomNumber
+	Patient patientName
 
     static constraints = {
 	appDate nullable:false, blank:false

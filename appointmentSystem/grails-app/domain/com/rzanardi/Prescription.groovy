@@ -5,7 +5,7 @@ class Prescription {
 	String pharmacyName
 	int prescripNumber
 	String medicine
-	float totalCost
+	String totalCost
 	Date dateIssued
 	Boolean patientPaying
 
