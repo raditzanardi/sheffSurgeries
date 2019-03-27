@@ -7,6 +7,9 @@ class Appointment {
 	int appDuration
 	String roomNumber
 	Patient patientName
+	String toString(){
+	return appDate
+	}
 
     static constraints = {
 	appDate nullable:false, blank:false
