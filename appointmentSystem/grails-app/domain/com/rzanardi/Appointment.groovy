@@ -10,6 +10,7 @@ class Appointment {
 	String toString(){
 	return appDate
 	}
+	
 
     static constraints = {
 	appDate nullable:false, blank:false

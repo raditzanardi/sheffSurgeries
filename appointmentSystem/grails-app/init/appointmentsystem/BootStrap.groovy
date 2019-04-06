@@ -4,7 +4,7 @@ class BootStrap {
 
     def init = { servletContext ->
 
-	/*def doctorname1 = new Doctor(
+	/*def doctorName1 = new Doctor(
 	fullName: 'Hugh Laurie',
 	qualification: 'PhD Medicine',
 	position: 'Surgeon',
@@ -14,7 +14,7 @@ class BootStrap {
 	doctorPhone: '083649271',
 	bio: 'Number one surgeon in the hospital, has PhD in Medicine').save()
 
-	def doctorname2 = new Doctor(
+	def doctorName2 = new Doctor(
 	fullName: 'Jack Danger',
 	qualification: 'PhD Medical Science',
 	position: 'GP',
@@ -24,7 +24,7 @@ class BootStrap {
 	doctorPhone: '08111901500',
 	bio: 'GP in the hospital, has PhD in Medical Science').save()
 
-	def doctorname3 = new Doctor(
+	def doctorName3 = new Doctor(
 	fullName: 'Alex Watson',
 	qualification: 'PhD Medical Science',
 	position: 'GP',
@@ -34,7 +34,7 @@ class BootStrap {
 	doctorPhone: '07240098976',
 	bio: 'GP in the hospital, has PhD in Medical Science').save()
 
-	def patientname1 = new Patient(
+	def patientName1 = new Patient(
 	patientName: 'Radit Zanardi',
 	patientAddress: '37 Suffolk Road',
 	patientResidence: 'Sheffield',
@@ -43,7 +43,7 @@ class BootStrap {
 	dateRegistered: new Date('09/05/2019'),
 	patientPhone: '0798336629').save()
 
-	def patientname2 = new Patient(
+	def patientName2 = new Patient(
 	patientName: 'John',
 	patientAddress: '22 West Street',
 	patientResidence: 'Derby',
@@ -52,7 +52,7 @@ class BootStrap {
 	dateRegistered: new Date('02/07/2019'),
 	patientPhone: '0798830275').save()
 
-	def patientname3 = new Patient(
+	def patientName3 = new Patient(
 	patientName: 'Shakkir',
 	patientAddress: '15 Norfolk Street',
 	patientResidence: 'Sheffield',
@@ -66,44 +66,44 @@ class BootStrap {
 	appTime: '3.00pm',
 	appDuration: '45',
 	roomNumber: 'A-1',
-	patientName:patientname1).save()
+	patientName:patientName1).save()
 
 	def appointment2 = new Appointment(
 	appDate: new Date('06/09/2019'),
 	appTime: '1.00pm',
 	appDuration: '60',
 	roomNumber: 'A-2',
-	patientName:patientname2).save()
+	patientName:patientName2).save()
 
 	def appointment3 = new Appointment(
 	appDate: new Date('09/09/2019'),
 	appTime: '12.00pm',
 	appDuration: '30',
 	roomNumber: 'A-3',
-	patientName:patientname3).save()
+	patientName:patientName3).save()
 	
-	def nursename1 = new Nurse(
+	def nurseName1 = new Nurse(
 	nurseName: 'John Cho',
 	qualifications: 'Registered Nurse',
 	nurseEmail: 'john@nurse.com',
 	nurseOffice: 'N-001',
 	nursePhone: '0753046726').save()
 
-	def nursename2 = new Nurse(
+	def nurseName2 = new Nurse(
 	nurseName: 'Jackie',
 	qualifications: 'Registered General Nurse',
 	nurseEmail: 'jackie@nurse.com',
 	nurseOffice: 'N-002',
 	nursePhone: '0726153830').save()
 	
-	def nursename3 = new Nurse(
+	def nurseName3 = new Nurse(
 	nurseName: 'Matt',
 	qualifications: 'Registered General Nurse',
 	nurseEmail: 'matt@nurse.com',
 	nurseOffice: 'N-003',
 	nursePhone: '07594017334').save()
 
-	def surgeryname1 = new Surgery(
+	def surgeryName1 = new Surgery(
 	name: 'General Health Centre',
 	address: '22 Sunderland Street',
 	postcode: 'S1 4BG',
@@ -112,7 +112,7 @@ class BootStrap {
 	bio: 'Sheffield surgery located in Sunderland Street',
 	openingTime: '09:00 - 18:00').save()
 	
-	def surgeryname2 = new Surgery(
+	def surgeryName2 = new Surgery(
 	name: 'New Medical Centre',
 	address: '12 Whithworth Street',
 	postcode: 'M1 6LT',
@@ -121,7 +121,7 @@ class BootStrap {
 	bio: 'Manchester surgery located in Whitworth Street',
 	openingTime: '09:00 - 18:00').save()
 
-	def surgeryname3 = new Surgery(
+	def surgeryName3 = new Surgery(
 	name: 'General Medical Centre',
 	address: '8 West Street',
 	postcode: 'S3 4LT',
@@ -130,25 +130,25 @@ class BootStrap {
 	bio: 'Local Sheffield surgery located in West Street',
 	openingTime: '09:00 - 18:00').save()
 
-	def recepname1 = new Receptionist(
+	def recepName1 = new Receptionist(
 	recepName: 'Alex Jones',
 	recepEmail: 'alex@receptionist.com',
-	recepUsername: 'alex',
-	recepPassword: 'password',
+	username: 'alex',
+	password: 'password',
 	recepPhone: '0867474820').save()
 	
-	def recepname2 = new Receptionist(
+	def recepName2 = new Receptionist(
 	recepName: 'Sam Jones',
 	recepEmail: 'sam@receptionist.com',
-	recepUsername: 'sam',
-	recepPassword: 'password',
+	username: 'sam',
+	password: 'password',
 	recepPhone: '0911635483').save()
 
-	def recepname3 = new Receptionist(
+	def recepName3 = new Receptionist(
 	recepName: 'Brendan Frasier',
 	recepEmail: 'brendan@receptionist.com',
-	recepUsername: 'brendan',
-	recepPassword: 'password',
+	username: 'brendan',
+	password: 'password',
 	recepPhone: '0987164839').save()
 
 	def prescription1 = new Prescription(
@@ -175,31 +175,31 @@ class BootStrap {
 	dateIssued: new Date('08/07/2019'),
 	patientPaying: 'Yes').save()
 
-	surgeryname1.addToNurses(nursename1)
-	surgeryname1.addToNurses(nursename2)
-	surgeryname2.addToNurses(nursename3)
-	surgeryname3.addToReceptionists(recepname1)
-	surgeryname3.addToReceptionists(recepname2)
-	surgeryname2.addToReceptionists(recepname3)
-	doctorname1.addToNurses(nursename1)
-	doctorname1.addToNurses(nursename2)
-	nursename3.addToDoctors(doctorname3)
-	surgeryname3.addToDoctors(doctorname2)
-	surgeryname1.addToDoctors(doctorname1)
-	surgeryname3.addToDoctors(doctorname3)
-	doctorname1.addToAppointments(appointment1)
-	doctorname1.addToAppointments(appointment2)
-	patientname1.addToPrescriptions(prescription1)
-	patientname1.addToPrescriptions(prescription3)
-	patientname2.addToPrescriptions(prescription2)
-	doctorname1.addToPatients(patientname1)
-	doctorname1.addToPatients(patientname2)
-	patientname3.addToDoctors(doctorname2)
-	doctorname1.addToPrescriptions(prescription1)
-	doctorname2.addToPrescriptions(prescription2)
-	doctorname2.addToPrescriptions(prescription3)
-	surgeryname1.addToPatients(patientname1)
-	surgeryname1.addToPatients(patientname2) */
+	surgeryName1.addToNurses(nurseName1)
+	surgeryName1.addToNurses(nurseName2)
+	surgeryName2.addToNurses(nurseName3)
+	surgeryName3.addToReceptionists(recepName1)
+	surgeryName3.addToReceptionists(recepName2)
+	surgeryName2.addToReceptionists(recepName3)
+	doctorName1.addToNurses(nurseName1)
+	doctorName1.addToNurses(nurseName2)
+	nurseName3.addToDoctors(doctorName3)
+	surgeryName3.addToDoctors(doctorName2)
+	surgeryName1.addToDoctors(doctorName1)
+	surgeryName3.addToDoctors(doctorName3)
+	doctorName1.addToAppointments(appointment1)
+	doctorName1.addToAppointments(appointment2)
+	patientName1.addToPrescriptions(prescription1)
+	patientName1.addToPrescriptions(prescription3)
+	patientName2.addToPrescriptions(prescription2)
+	doctorName1.addToPatients(patientName1)
+	doctorName1.addToPatients(patientName2)
+	patientName3.addToDoctors(doctorName2)
+	doctorName1.addToPrescriptions(prescription1)
+	doctorName2.addToPrescriptions(prescription2)
+	doctorName2.addToPrescriptions(prescription3)
+	surgeryName1.addToPatients(patientName1)
+	surgeryName1.addToPatients(patientName2) */
 	
     }
     def destroy = {

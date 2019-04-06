@@ -8,9 +8,11 @@ class Prescription {
 	String totalCost
 	Date dateIssued
 	Boolean patientPaying
+	int daysOfsupply
 	String toString(){
 	return pharmacyName
 	}
+	static belongsTo=[Doctor, Patient]
 
     static constraints = {
 	pharmacyName nullable:false, blank:false
@@ -19,5 +21,6 @@ class Prescription {
 	totalCost nullable:false, blank:false
 	dateIssued nullable:false, blank:false
 	patientPaying nullable:false, blank:false
+	daysOfsupply nullable:false, blank:false
     }
 }
