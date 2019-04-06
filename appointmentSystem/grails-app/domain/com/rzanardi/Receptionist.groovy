@@ -10,6 +10,7 @@ class Receptionist {
 	String toString(){
 	return recepName
 	}
+	static belongsTo=[Surgery]
 
     static constraints = {
 	recepName nullable:false, blank:false

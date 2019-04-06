@@ -103,7 +103,7 @@ environments:
     test:
         dataSource:
             dbCreate: update
-            url: 
+            url: jdbc:mysql://localhost:3306/test
     production:
         dataSource:
             dbCreate: none

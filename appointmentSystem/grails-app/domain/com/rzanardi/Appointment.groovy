@@ -10,7 +10,7 @@ class Appointment {
 	String toString(){
 	return appDate
 	}
-	
+	static belongsTo=[Doctor]
 
     static constraints = {
 	appDate nullable:false, blank:false

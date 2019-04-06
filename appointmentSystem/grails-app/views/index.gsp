@@ -11,7 +11,7 @@
     <section class="row colset-2-its">
         <h1>Sheffield Surgeries</h1>
 	<div class="row">
-		<asset:image src="Hospital.jpg"/>
+		<asset:image src="hospital1.jpg"/>
 	<div>
        
     </section>
