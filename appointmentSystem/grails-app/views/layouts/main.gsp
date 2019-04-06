@@ -16,7 +16,7 @@
 
 <body>
 	<div class="row">
-		
+	<asset:image src="hospitalbanner.jpg"/>
 		<g:loginToggle />
 		<g:doctorLogin />
 	</div>
