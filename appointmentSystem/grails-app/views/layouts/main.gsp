@@ -18,6 +18,7 @@
 	<div class="row">
 		
 		<g:loginToggle />
+		<g:doctorLogin />
 	</div>
 
 
