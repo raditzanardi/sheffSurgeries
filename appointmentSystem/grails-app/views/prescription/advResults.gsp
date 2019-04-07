@@ -9,26 +9,27 @@
 
 <div class="row">
 <h1>Prescription Search System</h1>
- <h3>Results</h3>
+ 
+	<h3>Results</h3>
 
- <p>Searched
+ 	 <p>Searched
+ 
+	for prescriptions matching <em>${term}</em>.
 
- for prescriptions matching <em>${term}</em>.
-
- Found <strong>${prescriptions.size()}</strong> prescriptions.
- </p>
+	Found <strong>${prescriptions.size()} </strong> prescriptions.
+ 
+</p>
 
  <ul>
- 	<g:each var="prescription" in="${prescriptions}">
- 	
-	<li><g:link controller="prescription" action="show"
+ 	<g:each var="prescription" in="${prescription}">
+
+ 	<li><g:link controller="prescription" action="show"
 
 	id="${prescription.id}">${prescription.medicine}</g:link></li>
-
 	 </g:each>
  </ul>
 
-<g:link action='advSearch'>Search Again</g:link>
+	<g:link action='advSearch'>Search Again</g:link>
 </div>
 </body>
 </html>
