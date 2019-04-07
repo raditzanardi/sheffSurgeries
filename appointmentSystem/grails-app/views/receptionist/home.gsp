@@ -24,7 +24,7 @@
 
 
 <div class="second">
-	<h3>Doctor Management</h3>
+	<h3>Register Doctors</h3>
 <p>Click here to register a new doctor</p>
 	
 	<button type="button" class="btn btn-success">
@@ -45,7 +45,7 @@
 
 <div class="second">
 	<h3>Register Receptionists</h3>
-<p>Click here to register a receptionist</p>
+<p>Click here to register a receptionist  </p>
 	
 	<button type="button" class="btn btn-success">
 		<g:link controller="receptionist" action="create">Register Receptionist</g:link>
@@ -54,7 +54,7 @@
 
 <div class="first">
 	<h3>Nurse Management</h3>
-<p>Click here to manage the nurses i.e. Assigning to a Doctor</p>
+<p>Click here to manage the nurses i.e. Assigning to a Doctor  </p>
 	
 	<button type="button" class="btn btn-success">
 		<g:link controller="nurse" action="index">Manage Nurses</g:link>
@@ -63,7 +63,7 @@
 
 <div class="second">
 	<h3>Patients Management</h3>
-<p>Click here to manage a patient i.e. Assigning to a doctors</p>
+<p>Click here to manage a patient i.e. Assigning to a doctor  </p>
 	
 	<button type="button" class="btn btn-success">
 		<g:link controller="patient" action="index">Manage Patients</g:link>

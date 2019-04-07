@@ -107,7 +107,7 @@ environments:
     production:
         dataSource:
             dbCreate: none
-            url: 
+            url: jdbc:mysql://localhost:3306/production
             properties:
                 jmxEnabled: true
                 initialSize: 5

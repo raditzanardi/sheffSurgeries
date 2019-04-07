@@ -19,6 +19,6 @@ class PrescriptionController {
 	 }
 	 }
 
-	return [ presciption : prescription ]
+	return [ presciptions : prescriptions ]
  }
 }

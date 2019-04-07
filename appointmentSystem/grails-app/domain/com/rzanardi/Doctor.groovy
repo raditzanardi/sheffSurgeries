@@ -14,6 +14,7 @@ class Doctor {
 	String toString(){
 	return fullName
 	}
+	static belongsTo=[Surgery, Patient]
 
     static constraints = {
 	fullName nullable:false, blank:false

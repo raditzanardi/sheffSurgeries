@@ -9,7 +9,7 @@
 
 	<div class="row">
 <h1>Patient Search System</h1>
- <h3>Advanced Results</h3>
+ <h3>Results </h3>
 
  <p>Searched
  for patients matching <em>${term}</em>.
