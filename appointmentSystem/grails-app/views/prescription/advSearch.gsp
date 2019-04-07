@@ -8,7 +8,7 @@
 <body>
 
 <div class="row">
-<h1>Sreda Student Enrolment System</h1>
+<h1>Prescription Seacrh System</h1>
 
 <formset>
  <legend>Search for Prescriptions</legend>

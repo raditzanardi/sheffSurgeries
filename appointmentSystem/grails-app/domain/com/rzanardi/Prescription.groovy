@@ -12,8 +12,8 @@ class Prescription {
 	String toString(){
 	return pharmacyName
 	}
-	static hasMany=[doctors:Doctor, patients: Patient]
-	static belongsTo=[Patient, Doctor]
+	
+	static belongsTo=[Doctor, Patient]
 
     static constraints = {
 	pharmacyName nullable:false, blank:false

@@ -157,7 +157,8 @@ class BootStrap {
 	medicine: 'Paracetamol',
 	totalCost: '£5.00',
 	dateIssued: new Date('04/10/2019'),
-	patientPaying: 'Yes').save()
+	patientPaying: 'Yes',
+	daysOfsupply: '30').save()
 
 	def prescription2 = new Prescription(
 	pharmacyName: 'Medical Pharmacy',
@@ -165,7 +166,8 @@ class BootStrap {
 	medicine: 'Panadol',
 	totalCost: '£4.50',
 	dateIssued: new Date('01/09/2020'),
-	patientPaying: 'Yes').save()
+	patientPaying: 'Yes',
+	daysOfsupply: '15').save()
 
 	def prescription3 = new Prescription(
 	pharmacyName: 'General Pharmacy',
@@ -173,7 +175,8 @@ class BootStrap {
 	medicine: 'Diazepam',
 	totalCost: '£8.00',
 	dateIssued: new Date('08/07/2019'),
-	patientPaying: 'Yes').save()
+	patientPaying: 'Yes',
+	daysOfsupply: '20').save()
 
 	surgeryName1.addToNurses(nurseName1)
 	surgeryName1.addToNurses(nurseName2)

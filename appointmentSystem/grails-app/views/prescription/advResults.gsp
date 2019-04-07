@@ -16,7 +16,7 @@
  
 	for prescriptions matching <em>${term}</em>.
 
-	Found <strong>${prescriptions.size()} </strong> prescriptions.
+	Found <strong> ${prescriptions.size()} </strong> prescriptions.
  
 </p>
 

@@ -34,7 +34,7 @@
 
 
 <div class="first">
-	<h3>Patiens</h3>
+	<h3>Patients</h3>
 <p>Click here to view the registered patients</p>
 	
 	<button type="button" class="btn btn-success">

@@ -22,8 +22,9 @@ class AppointmentSystemTagLib {
 	out << "Receptionist Login </a></span>"
 	}
 	out << "</div><br/>"
-	} 
-
+	
+	}
+	
 	def doctorLogin = {
 	out << "<div style='margin: 15px 0 40px;'>"
 	if (request.getSession(false) && session.user){
@@ -42,5 +43,7 @@ class AppointmentSystemTagLib {
 	out << "Doctor Login </a></span>"
 	}
 	out << "</div><br/>"
-	} 
+	}  
+
+	
 }

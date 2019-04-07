@@ -13,8 +13,9 @@
 
  <p>Searched
  for patients matching <em>${term}</em>.
- Found <strong>${patients.size()}</strong> patients.
+ Found <strong> ${patients.size()}  </strong>  patients.
  </p>
+
 
  <ul>
  	<g:each var="patient" in="${patients}">
