@@ -12,7 +12,7 @@ class Prescription {
 	String toString(){
 	return pharmacyName
 	}
-	
+	static hasMany=[doctors:Doctor]
 	static belongsTo=[Doctor, Patient]
 
     static constraints = {

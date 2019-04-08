@@ -12,8 +12,10 @@
  <h3>Results </h3>
 
  <p>Searched
- for patients matching <em>${term}</em>.
- Found <strong> ${patients.size()}  </strong>  patients.
+ 
+for patients matching <em>${term}</em>.
+ 
+Found <strong> ${patients.size()}  </strong>  patients.
  </p>
 
 
